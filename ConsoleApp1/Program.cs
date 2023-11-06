@@ -1,8 +1,10 @@
-﻿internal class Program
+﻿using ConsoleApp1;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        
+        harish h = new harish();
+        h.Display();
     }
 }
