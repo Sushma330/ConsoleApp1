@@ -6,5 +6,6 @@ internal class Program
     {
         harish h = new harish();
         h.Display();
+        Console.WriteLine("Something!");
     }
 }
